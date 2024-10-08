@@ -83,6 +83,10 @@ export const PokemonCard = ({ pokemon: pokemonData }: { pokemon: Pokemon }) => {
           className={css({
             textTransform: "capitalize",
             textAlign: "center",
+            fontSize: "20px",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            textWrap: "nowrap",
           })}
         >
           {pokemonData.name}

@@ -16,6 +16,8 @@ import { AuthContext } from "../contexts/AuthContext";
 
 import { icons } from "../icons/icons";
 
+import "./../index.css";
+
 export const PokemonCard = ({ pokemon: pokemonData }: { pokemon: Pokemon }) => {
   const { isAuthenticated } = useContext(AuthContext);
   const { isFavoritePokemon, toggleFavoritePokemon } =
@@ -66,6 +68,7 @@ export const PokemonCard = ({ pokemon: pokemonData }: { pokemon: Pokemon }) => {
           height: "96px",
           width: "96px",
           margin: "auto",
+          filter: "drop-shadow(0 0 3px rgba(0, 0, 0, 0.7))",
         })}
         title={pokemonData.name}
         alt={pokemonData.name}

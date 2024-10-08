@@ -28,17 +28,7 @@ const Login: React.FC = () => {
           </IonTitle>
         </IonToolbar>
       </IonHeader>
-
       <IonContent>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle className={css({ paddingLeft: 2 })}>
-              <Link to="/">
-                <img alt="Pokédex App" src="/pokedexAppLogo.png" width={150} />
-              </Link>
-            </IonTitle>
-          </IonToolbar>
-        </IonHeader>
         <AuthContainer>
           <LoginForm />
         </AuthContainer>

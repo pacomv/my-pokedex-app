@@ -23,9 +23,6 @@ const AuthContainer: React.FC<ContainerProps> = ({
           margin: "auto",
         })}
       >
-        <IonTitle className={css({ marginBottom: 1, textAlign: "center" })}>
-          Welcome
-        </IonTitle>
         <div
           className={css({
             borderWidth: 1,

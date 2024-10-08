@@ -8,7 +8,6 @@ import {
 import { css } from "../../styled-system/css";
 import AuthContainer from "../components/AuthContainer";
 import "./../index.css";
-import { Link } from "react-router-dom";
 import LoginForm from "../components/LoginForm";
 import { PokedexAppLogo } from "../components/PokedexAppLogo";
 

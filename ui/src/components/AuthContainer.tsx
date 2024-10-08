@@ -1,4 +1,4 @@
-import { IonTitle } from "@ionic/react";
+import { IonText } from "@ionic/react";
 import React, { ReactNode } from "react";
 import { css } from "../../styled-system/css";
 
@@ -23,6 +23,17 @@ const AuthContainer: React.FC<ContainerProps> = ({
           margin: "auto",
         })}
       >
+        <IonText
+          className={css({
+            marginBottom: 1,
+            textAlign: "center",
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+          })}
+        >
+          Welcome
+        </IonText>
         <div
           className={css({
             borderWidth: 1,

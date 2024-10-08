@@ -1,4 +1,4 @@
-import { IonButton, IonInput, IonText, IonTitle, IonToast } from "@ionic/react";
+import { IonButton, IonInput, IonText, IonToast } from "@ionic/react";
 import { css } from "../../styled-system/css";
 import { Link } from "react-router-dom";
 import { FormEvent, useContext, useState } from "react";
@@ -21,11 +21,11 @@ const RegisterForm = () => {
   };
   return (
     <div>
-      <IonTitle
+      <IonText
         className={css({ mb: 2, fontSize: "md", fontWeight: "semibold" })}
       >
         Register
-      </IonTitle>
+      </IonText>
       <form onSubmit={onSubmit}>
         <div
           className={css({

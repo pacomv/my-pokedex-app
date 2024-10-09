@@ -58,7 +58,7 @@ const LoginForm = () => {
         })}
       >
         <IonText>
-          Do you have an account? <Link to="/register">Register</Link>
+          New to Pokédex App? <Link to="/register">Register</Link>
         </IonText>
       </div>
       <IonToast
